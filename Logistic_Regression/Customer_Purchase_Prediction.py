@@ -18,3 +18,5 @@ prediction=model.predict(xTest)
 accuracy=accuracy_score(yTest,prediction)
 print("accuracy",accuracy*100)
 print("prediction",prediction)
+
+#probability for test data
